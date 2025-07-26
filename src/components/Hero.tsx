@@ -16,14 +16,6 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-        <div className="mb-8">
-          <img 
-            src="/lovable-uploads/b5c22379-7fb3-44e3-a2d1-b82366ab8ee0.png" 
-            alt="Donnersberger Knospe e.V. Logo" 
-            className="h-24 w-24 mx-auto mb-6 drop-shadow-2xl"
-          />
-        </div>
-        
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Donnersberger<br />
           <span className="text-vintage-cream">Knospe e.V.</span>

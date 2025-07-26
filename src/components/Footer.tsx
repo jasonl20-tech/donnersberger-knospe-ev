@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/b5c22379-7fb3-44e3-a2d1-b82366ab8ee0.png" 
+                src="/lovable-uploads/bcc62e19-d635-4aaf-9230-bc51b2ecd7c3.png" 
                 alt="Donnersberger Knospe e.V. Logo" 
                 className="h-10 w-10"
               />

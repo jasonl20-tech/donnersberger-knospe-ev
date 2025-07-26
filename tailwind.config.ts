@@ -24,6 +24,11 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'earth-tone': 'hsl(var(--earth-tone))',
+				'mountain-brown': 'hsl(var(--mountain-brown))',
+				'leaf-green': 'hsl(var(--leaf-green))',
+				'vintage-cream': 'hsl(var(--vintage-cream))',
+				'hero-overlay': 'hsl(var(--hero-overlay))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

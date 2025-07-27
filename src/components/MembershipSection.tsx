@@ -18,7 +18,7 @@ const MembershipSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-3xl font-bold mb-6 text-foreground">
-              Was bietet eine Mitgliedschaft?
+              Wie funktioniert die Mitgliedschaft?
             </h3>
             
             <div className="space-y-4">
@@ -29,10 +29,10 @@ const MembershipSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Legaler Zugang</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Guthaben-System</h4>
                   <p className="text-muted-foreground">
-                    Zugang zu qualitativ hochwertigem Cannabis aus kontrolliertem Anbau, 
-                    entsprechend der aktuellen Gesetzeslage.
+                    Ihr monatlicher Mitgliedsbeitrag wird als Guthaben verwaltet, 
+                    mit dem Sie legal Cannabis bei uns abholen können.
                   </p>
                 </div>
               </div>
@@ -44,10 +44,10 @@ const MembershipSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Aufklärung & Beratung</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Exklusive Mitglieder-App</h4>
                   <p className="text-muted-foreground">
-                    Professionelle Beratung zu Dosierung, Sorten und 
-                    verantwortungsvollem Konsum durch qualifizierte Mitarbeiter.
+                    Zugang zu unserer App mit Echtzeit-Beständen, Verfügbarkeiten 
+                    und der Möglichkeit, Abholtermine bequem zu buchen.
                   </p>
                 </div>
               </div>
@@ -59,10 +59,10 @@ const MembershipSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Gemeinschaftsevents</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Transparenz & Kontrolle</h4>
                   <p className="text-muted-foreground">
-                    Teilnahme an exklusiven Veranstaltungen, Workshops und 
-                    Bildungsveranstaltungen für Mitglieder.
+                    Vollständige Transparenz über Ihr Guthaben, verfügbare Mengen 
+                    und alle Transaktionen über die Mitglieder-App.
                   </p>
                 </div>
               </div>
@@ -78,13 +78,13 @@ const MembershipSection = () => {
             <CardContent className="space-y-6">
               <div className="text-center">
                 <p className="text-muted-foreground mb-4">
-                  Voraussetzungen für eine Mitgliedschaft:
+                  So funktioniert die Mitgliedschaft:
                 </p>
                 <ul className="text-left space-y-2 text-muted-foreground">
-                  <li>• Mindestalter: 21 Jahre</li>
-                  <li>• Wohnsitz in Deutschland</li>
-                  <li>• Nachweis der Volljährigkeit</li>
-                  <li>• Einmaliger Mitgliedsbeitrag</li>
+                  <li>• Monatlicher Beitrag wird als Guthaben verwaltet</li>
+                  <li>• App-Zugang für Bestände und Termine</li>
+                  <li>• Legale Abholung in unseren Räumen</li>
+                  <li>• Transparente Guthaben-Verwaltung</li>
                 </ul>
               </div>
               

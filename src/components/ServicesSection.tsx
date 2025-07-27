@@ -5,33 +5,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <Leaf className="w-12 h-12 text-leaf-green" />,
-      title: "Qualitätskontrolle",
-      description: "Strenge Qualitätsstandards und regelmäßige Kontrollen unserer Cannabis-Produkte für maximale Sicherheit."
+      title: "Mitglieder-App",
+      description: "Exklusive App für alle Mitglieder mit Echtzeit-Anzeige von Beständen, Verfügbarkeiten und Abholzeiten."
     },
     {
       icon: <Shield className="w-12 h-12 text-leaf-green" />,
-      title: "Rechtliche Sicherheit",
-      description: "Vollständige Einhaltung der deutschen Cannabis-Gesetze und transparente Vereinsführung."
+      title: "Guthaben-System",
+      description: "Ihr Mitgliedsbeitrag wird als Guthaben verwaltet, mit dem Sie legal Cannabis bei uns abholen können."
     },
     {
       icon: <Users className="w-12 h-12 text-leaf-green" />,
-      title: "Gemeinschaft",
-      description: "Eine starke Gemeinschaft von verantwortungsbewussten Cannabis-Enthusiasten und Experten."
+      title: "Bestands-Tracking",
+      description: "Transparente Übersicht über alle verfügbaren Sorten, Mengen und aktuelle Preise in der App."
     },
     {
       icon: <BookOpen className="w-12 h-12 text-leaf-green" />,
-      title: "Aufklärung & Bildung",
-      description: "Regelmäßige Workshops und Informationsveranstaltungen über verantwortlichen Cannabis-Konsum."
+      title: "Terminbuchung",
+      description: "Bequeme Buchung von Abholterminen direkt über die App - keine Wartezeiten, kein Stress."
     },
     {
       icon: <Heart className="w-12 h-12 text-leaf-green" />,
-      title: "Gesundheit & Wohlbefinden",
-      description: "Fokus auf medizinische Anwendungen und gesundheitsfördernde Eigenschaften von Cannabis."
+      title: "Qualitätsgarantie",
+      description: "Laborgeprüfte Cannabis-Produkte höchster Qualität aus kontrolliertem, legalem Anbau."
     },
     {
       icon: <Scale className="w-12 h-12 text-leaf-green" />,
-      title: "Faire Preise",
-      description: "Transparente, kostendeckende Preisgestaltung ohne kommerzielle Gewinnabsichten."
+      title: "Sichere Abholung",
+      description: "Diskrete und sichere Abholung in unseren Vereinsräumen zu Ihrem gebuchten Termin."
     }
   ];
 
@@ -40,11 +40,11 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-primary">
-            Unsere Leistungen
+            Unsere Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Als Cannabis Social Club bieten wir unseren Mitgliedern ein umfassendes Angebot 
-            für den verantwortungsvollen Umgang mit Cannabis in einer sicheren Umgebung.
+            Als Mitglied profitieren Sie von unserem innovativen Guthaben-System 
+            und der benutzerfreundlichen App für eine nahtlose Cannabis-Erfahrung.
           </p>
         </div>
 
